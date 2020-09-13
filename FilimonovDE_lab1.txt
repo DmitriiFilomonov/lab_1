@@ -2,3 +2,32 @@
 2) с помощью git commit  добавил коммит "Начало работы"
 3) в файле .gitignore я скрыл папку gh
 4) c помощью git diff и хэшей, я сравнил 2 коммита
+5) Удалил файл из репозитория с помощью git rm
+6) с помощью git mv ваполнил перемешение файла
+7) git log 
+commit 988a5040bb2aa838ef2d65f326f7e41d0bb3b073 (HEAD -> master)
+Author: DmitriiFilimonov <dmitriif152@gmail.com>
+Date:   Sun Sep 13 13:24:44 2020 +0700
+
+    Выполнение 11 задания
+
+commit 80187d86ef0369ff3335649a0008b3eab352d433
+Author: DmitriiFilimonov <dmitriif152@gmail.com>
+Date:   Sat Sep 12 17:49:14 2020 +0700
+
+    Игнорирование файла
+
+commit 2f701ae4a93c3e4ef534cc623041f2ee5744cfa2
+Author: DmitriiFilimonov <dmitriif152@gmail.com>
+Date:   Tue Sep 8 20:22:45 2020 +0700
+
+    Изменение файла
+
+commit 9f138bdbb96f09db6f51a53e1b01333d11439579
+Author: DmitriiFilimonov <dmitriif152@gmail.com>
+Date:   Tue Sep 8 20:20:44 2020 +0700
+
+    Начало работы
+8) c помощью git reset я отменил изминение
+9) для создания метки используем git tag -а v1.0, позже чтобы узнать создали ли мы метку или информацию о ней пишем git show
+
